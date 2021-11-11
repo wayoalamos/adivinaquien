@@ -31,7 +31,7 @@ const Button = styled.button`
 function App() {
   const [count, setCount] = useState(0);
   const questions = [
-    "usa más tiktok",
+    "hace videos de tiktok escondido",
     "se quedará dormido primero hoy",
     "ahora tiene el culo más sucio",
     "va a ser el primero en ir a cagar en el matri",
