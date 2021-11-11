@@ -8,6 +8,7 @@ function App() {
         <h1> Adivina quien </h1>
         <p> Se masturbo hoy </p>
         <img src={logo} className="App-logo" alt="logo" />
+        <button>SIGUIENTE</button>
       </header>
     </div>
   );
