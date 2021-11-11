@@ -20,6 +20,9 @@ function App() {
         <button onClick={() => setCount(count + 1)}>
           Siguiente
         </button>
+        <button onClick={() => setCount(count - 1)}>
+          Atras
+        </button>
       </header>
     </div>
   );
