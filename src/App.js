@@ -31,6 +31,7 @@ const Button = styled.button`
 function App() {
   const [count, setCount] = useState(0);
   const questions = [
+    "usa más tiktok",
     "se quedará dormido primero hoy",
     "ahora tiene el culo más sucio",
     "va a ser el primero en ir a cagar en el matri",
@@ -64,7 +65,18 @@ function App() {
     "ha tenido un trio",
     "jurar amor eterno para ganarse",
     "ha mentido sobre su orientación sexual para evitar una cita/salida",
-
+    "ha simulado un orgasmo",
+    "se ha sacado la última selfie cagando",
+    "se ha limpiado el culo con un calcetin",
+    "se ha enamorado de la jefa",
+    "se ha masturbado aca",
+    "esta sin calzoncillo",
+    "ha vomitado a alguien mientras esta curado",
+    "se lo han llevado preso",
+    "se ha agarrado a mocha",
+    "ha terminado una relación por celular",
+    "se ha masturbado en el baño de la oficina",
+    "ha tenido sexo en la cama de sus viejos",
   ]
 
   return (
