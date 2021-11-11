@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 import styled from "styled-components";
 
 const Button = styled.button`
-  width: 150px;
+  font-size: 30px;
+  width: 250px;
   height: 50px;
   background-color: #e91e63;
   color: white;
