@@ -31,11 +31,12 @@ const Button = styled.button`
 function App() {
   const [count, setCount] = useState(0);
   const questions = [
-    "va a ser el primer invitado en bailar con la novia",
-    "duerme menos",
-    "se quedará dormido primero",
+    "se quedará dormido primero hoy",
+    "ahora tiene el culo más sucio",
     "va a ser el primero en ir a cagar en el matri",
+    "va a ser el primer invitado en bailar con la novia",
     "va a ser el primero en vomitar en el matri",
+    "ha mandadu nudes",
     "ha probado más drogas",
     "tiene un fetiche con los pies",
     "lo ha hecho con dos personas distintas la misma noche",
@@ -50,6 +51,19 @@ function App() {
     "puede eyacular más lejos",
     "se ha acostado con una compañera de trabajo",
     "hace más caca durante el día",
+    "ha salido con más tinders",
+    "se ha meado encima de grande",
+    "ha tenido sexo anal",
+    "le gusta ir abajo en la cama",
+    "tiene usa más juegos sexuales",
+    "es mas procrastinador",
+    "mas le encanta chupar vagina",
+    "mas le gusta chupar ano",
+    "manejar con alcohol",
+    "lleva más tiempo sin follar",
+    "ha tenido un trio",
+    "jurar amor eterno para ganarse",
+    "ha mentido sobre su orientación sexual para evitar una cita/salida",
   ]
 
   return (
