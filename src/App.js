@@ -32,22 +32,24 @@ function App() {
   const [count, setCount] = useState(0);
   const questions = [
     "va a ser el primer invitado en bailar con la novia",
-    "quien se quedará dormido primero",
+    "duerme menos",
+    "se quedará dormido primero",
     "va a ser el primero en ir a cagar en el matri",
     "va a ser el primero en vomitar en el matri",
     "ha probado más drogas",
     "tiene un fetiche con los pies",
     "lo ha hecho con dos personas distintas la misma noche",
     "tiene VIH",
-    "quien se masturbó hoy",
-    "quien ha soñado con la mamá de otro del grupo",
-    "eyacula más ml",
-    "puede eyacular más lejos",
+    "se masturbó hoy",
+    "ha soñado con la mamá de otro del grupo",
+    "eyacula más (mililitros)",
     "se ha agarrado a 3 mujeres la misma noche",
     "fue el último en tener un sueño humedo",
     "ha tenido más pololas",
     "se ha acostado con la amiga de un amigo",
-    "se ha acostado con una compañera de trabajo"
+    "puede eyacular más lejos",
+    "se ha acostado con una compañera de trabajo",
+    "hace más caca durante el día",
   ]
 
   return (
