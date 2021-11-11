@@ -5,11 +5,13 @@ import styled from "styled-components";
 
 const Button = styled.button`
   font-size: 30px;
+  font-weight: bold;
+  font-family: Apple Chancery;
   width: 250px;
-  height: 50px;
+  height: 70px;
   background-color: #e91e63;
   color: white;
-  padding: 5px 15px;
+  padding: 10px 10px;
   border-radius: 5px;
   outline: 0;
   text-transform: uppercase;
@@ -38,8 +40,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Adivina quien ...</h1>
-        <p> {questions[count]} </p>
+        <h1 style={{color: "#e91e63", fontFamily: "Apple Chancery"}}> Adivina quien ...</h1>
+        <p  style={{fontFamily: "Apple Chancery", fontSize: "30px"}}> {questions[count]} </p>
         <img src={logo} className="App-logo" alt="logo" />
         <Button onClick={() => setCount(count + 1)}>
           Siguiente
