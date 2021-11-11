@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Button = styled.button`
   font-size: 30px;
   font-weight: bold;
-  font-family: Apple Chancery;
+  font-family: Brush Script MT;
   width: 250px;
   height: 70px;
   background-color: #e91e63;
@@ -32,6 +32,7 @@ function App() {
   const [count, setCount] = useState(0);
   const questions = [
     "va a ser el primer invitado en bailar con la novia",
+    "quien se quedará dormido primero",
     "va a ser el primero en ir a cagar en el matri",
     "va a ser el primero en vomitar en el matri",
     "ha probado más drogas",
@@ -40,13 +41,15 @@ function App() {
     "tiene VIH",
     "quien se masturbó hoy",
     "quien ha soñado con la mamá de otro del grupo",
+    "eyacula más ml",
+    "puede eyacular más lejos"
   ]
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1 style={{color: "#e91e63", fontFamily: "Apple Chancery"}}> Adivina quien ...</h1>
-        <p  style={{fontFamily: "Apple Chancery", fontSize: "30px"}}> {questions[count]} </p>
+        <h1 style={{color: "#e91e63", fontFamily: "Brush Script MT"}}> Adivina quien ...</h1>
+        <p  style={{fontFamily: "Brush Script MT", fontSize: "30px"}}> {questions[count]} </p>
         <img src={logo} className="App-logo" alt="logo" />
         <Button onClick={() => setCount(count + 1)}>
           Siguiente
