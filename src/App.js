@@ -64,6 +64,7 @@ function App() {
     "ha tenido un trio",
     "jurar amor eterno para ganarse",
     "ha mentido sobre su orientación sexual para evitar una cita/salida",
+
   ]
 
   return (
