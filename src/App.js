@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Button = styled.button`
   font-size: 30px;
   font-weight: bold;
-  font-family: Brush Script MT;
+  font-family: Cursive;
   width: 250px;
   height: 70px;
   background-color: #e91e63;
@@ -42,14 +42,19 @@ function App() {
     "quien se masturbó hoy",
     "quien ha soñado con la mamá de otro del grupo",
     "eyacula más ml",
-    "puede eyacular más lejos"
+    "puede eyacular más lejos",
+    "se ha agarrado a 3 mujeres la misma noche",
+    "fue el último en tener un sueño humedo",
+    "ha tenido más pololas",
+    "se ha acostado con la amiga de un amigo",
+    "se ha acostado con una compañera de trabajo"
   ]
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1 style={{color: "#e91e63", fontFamily: "Brush Script MT"}}> Adivina quien ...</h1>
-        <p  style={{fontFamily: "Brush Script MT", fontSize: "30px"}}> {questions[count]} </p>
+        <h1 style={{color: "#e91e63", fontFamily: "Cursive"}}> Adivina quien ...</h1>
+        <p  style={{fontFamily: "Cursive", fontSize: "30px"}}> {questions[count]} </p>
         <img src={logo} className="App-logo" alt="logo" />
         <Button onClick={() => setCount(count + 1)}>
           Siguiente
