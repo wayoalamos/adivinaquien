@@ -32,9 +32,14 @@ function App() {
   const [count, setCount] = useState(0);
   const questions = [
     "va a ser el primer invitado en bailar con la novia",
-    "quien se masturbó hoy",
+    "va a ser el primero en ir a cagar en el matri",
     "va a ser el primero en vomitar en el matri",
+    "ha probado más drogas",
+    "tiene un fetiche con los pies",
+    "lo ha hecho con dos personas distintas la misma noche",
     "tiene VIH",
+    "quien se masturbó hoy",
+    "quien ha soñado con la mamá de otro del grupo",
   ]
 
   return (
