@@ -1,19 +1,19 @@
 {
-  "short_name": "Despedida Silva",
-  "name": "Despedida Silva",
+  "short_name": "Despedida Soltera",
+  "name": "Despedida Soltera",
   "icons": [
     {
-      "src": "fotosilva8.ico",
+      "src": "vale.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "fotosilva8.png",
+      "src": "vale.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "fotosilva8.png",
+      "src": "vale.png",
       "type": "image/png",
       "sizes": "512x512"
     }

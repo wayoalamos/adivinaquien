@@ -1,4 +1,4 @@
-import logo from './silvafoto5.png';
+import logo from './vale.png';
 import './App.css';
 import React, { useState } from 'react';
 import styled from "styled-components";
@@ -30,6 +30,60 @@ const Button = styled.button`
 
 function App() {
   const [count, setCount] = useState(0);
+  const questionsVale = [
+    "Es la más bizarra",
+    "Tiene sexo con más frecuencia",
+    "Va a terminar presa en unos años",
+    "Se va a quedar dormida primero hoy",
+    "Va a ser millonaria",
+    "Hace mejor sexo oral",
+    "Se disfraza de conejito en la cama",
+    "Va a ser el primero en vomitar en los matris",
+    "Ha mandado nudes",
+    "Ha probado más drogas",
+    "Lo ha hecho con dos personas la misma noche",
+    "Se masturbó hoy",
+    "Va a ser mantenida",
+    "Va a tener más botox a futuro",
+    "Va a tener más hijos",
+    "Se va a casar más de una vez",
+    "Tiene más zapatos",
+    "Se ha hecho más tests de embarazo",
+    "Ha tomado más pastillas del día después",
+    "Lo ha hecho con más gente",
+    "Ha tenido más pololas",
+    "A quien le gusta más chupar el pico",
+    "A quien le gustaría hacer un trío",
+    "Es más exigente en la cama",
+    "Se va a condorear",
+    "Es la más enamoradiza ",
+    "Se va a calentar con el jardinero o el gasfiter",
+    "Le van a dar menos",
+    "Con ropa interior más despreocupada",
+    "Va a ser la más pobre",
+    "Se calienta más fácil",
+    "Va a ser la mamá más paca",
+    "Se ha agarrado más gente",
+    "De las que pololea tira menos seguido",
+    "Lo ha hecho en más países diferentes",
+    "Más probable que tenga un sugar daddy",
+    "Es la más macabea",
+    "Va a ser la vieja más cuica",
+    "Es la más sensual",
+    "Tiene más juguetes sexuales",
+    "Tiene el pezón más grande",
+    "Se ha ido más veces en un mismo día",
+    "Se va más rápido",
+    "Tiene el mejor poto",
+    "REGALA 5 TRAGOS",
+    "Tiene la gigi más linda",
+    "Va a tener el hijo más rebelde",
+    "Más calienta sopa",
+    "Va a tener más hijos",
+    "Va a cagarse más a su marid@",
+    "Va a tener más sexo en su vida",
+    "FIN DEL JUEGO, REGALA PISCOLA AL SECO"
+    ];
   const questions = [
     "hace videos de tiktok escondido",
     "se quedará dormido primero hoy",
@@ -151,10 +205,10 @@ function App() {
   ]
 
   return (
-    <div className="App">"
+    <div className="App">
       <header className="App-header">
         <h1 style={{color: "#e91e63", fontFamily: "Cursive"}}> Adivina quien ...</h1>
-        <p  style={{fontFamily: "Cursive", fontSize: "30px"}}> {questions[count]} </p>
+        <p  style={{fontFamily: "Cursive", fontSize: "30px"}}> {questionsVale[count]} </p>
         <img src={logo} className="App-logo" alt="logo" />
         <Button onClick={() => setCount(count + 1)}>
           Siguiente
@@ -162,6 +216,9 @@ function App() {
         <button onClick={() => setCount(count - 1)}>
           Atras
         </button>
+        <a style={{marginTop: "15px",color: "white", textDecoration: "None", fontFamily: "Arial", fontSize: "10px"}} href = "mailto:malamos2@uc.cl?subject = Contacto&body = Message">
+          by wayoalamos
+        </a>
       </header>
     </div>
   );

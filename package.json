@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "firebase-tools": "8.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -17,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && aws s3 sync build/ s3://adivinaquien"
+    "aws:deploy": "yarn build && aws s3 sync build/ s3://adivinaquien",
+    "g:deploy": "yarn build && firebase deploy"
   },
   "eslintConfig": {
     "extends": [
